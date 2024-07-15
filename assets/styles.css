@@ -1,0 +1,50 @@
+/* styles.css */
+/* Import Bebas Neue from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/* Mengatur font untuk seluruh aplikasi */
+body {
+    font-family: 'Arial', sans-serif; /* Ganti dengan font yang Anda inginkan untuk seluruh aplikasi */
+    background-color: #111111;
+    color: #ffffff;
+}
+
+/* Mengatur font untuk judul */
+h1 {
+    font-family: 'Orelega One ', cursive;
+}
+
+/* Mengatur font untuk label */
+label {
+    font-family: 'Verdana', sans-serif;
+}
+
+/* Mengatur font untuk komponen dropdown */
+.dash-dropdown .Select-control {
+    font-family: 'Georgia', serif;
+}
+
+/* Mengatur font untuk komponen RangeSlider */
+.range-slider .rc-slider {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+body {
+    background-color: #111111;
+    color: #ffffff;
+}
+
+.range-slider .rc-slider-track {
+    background-color: #ffffff; /* Warna trek slider */
+}
+
+.range-slider .rc-slider-handle {
+    background-color: #ff7f0e; /* Warna pegangan slider */
+    border: 1.5px solid #ffffff; /* Border warna pegangan slider */
+}
+
+.range-slider .rc-slider-rail {
+    background-color: #111111; /* Warna rel slider */
+}
